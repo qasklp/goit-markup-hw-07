@@ -1,0 +1,31 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: #2F303A;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.footer__box {
+    margin-left: 70px;
+    padding-top: 12px;
+
+    &:first-child {
+        margin-left: 0;
+        padding-top: 0;
+    }
+}
+
+.footer__title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: getColor("tertiary");
+}
